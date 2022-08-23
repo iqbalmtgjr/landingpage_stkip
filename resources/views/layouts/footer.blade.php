@@ -3,28 +3,32 @@
     <div class="container">
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-4">Get In Touch</h4>
-                <h3 class="text-primary mb-4"><img width="40px" src="{{ asset('assets/img/STKIP.png') }}"
-                        alt="">&nbsp; STKIP Sintang</h3>
+                <h4 class="text-white mb-4">Informasi</h4>
+                <h3 class="text-primary mb-4"><img width="40px" style="align-self: right"
+                        src="{{ asset('assets/img/STKIP.png') }}" alt="">&nbsp; STKIP Sintang</h3>
                 <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Pertamina KM 4, Sengkuang, Sintang</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62-812-5723-9198</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>stkippersada@gmail.com</p>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-light mb-4">Quick Links</h4>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Our Services</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">Support</a>
+                <h4 class="text-light mb-4">Program Studi</h4>
+                <a class="btn btn-link" href="https://pbsi.persadakhatulistiwa.ac.id/">Pendidikan Bahasa dan Sastra
+                    Indonesia</a>
+                <a class="btn btn-link" href="https://pbio.persadakhatulistiwa.ac.id/">Pendidikan Biologi</a>
+                <a class="btn btn-link" href="https://pbi.persadakhatulistiwa.ac.id/">Pendidikan Bahasa Inggris</a>
+                <a class="btn btn-link" href="https://ppkn.persadakhatulistiwa.ac.id/">Pendidikan Pancasila dan
+                    Kewarganegaraan</a>
+                <a class="btn btn-link" href="https://pgsd.persadakhatulistiwa.ac.id/">Pendidikan Guru Sekolah Dasar</a>
+                <a class="btn btn-link" href="https://ekonomi.persadakhatulistiwa.ac.id/">Pendidikan Ekonomi</a>
+                <a class="btn btn-link" href="https://paud.persadakhatulistiwa.ac.id/">Pendidikan Anak Usia Dini</a>
+                <a class="btn btn-link" href="https://pmm.persadakhatulistiwa.ac.id/">Pendidikan Matematika</a>
+                <a class="btn btn-link" href="https://komputer.persadakhatulistiwa.ac.id/">Pendidikan Komputer</a>
             </div>
             <div class="col-lg-3 col-md-6">
-                <h4 class="text-light mb-4">Popular Links</h4>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Our Services</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">Support</a>
+                <h4 class="text-light mb-4">Tentang</h4>
+                <a class="btn btn-link" href={{ url('selayang-pandang') }}>Selayang Pandang</a>
+                <a class="btn btn-link" href={{ url('struktur-organisasi') }}>Struktur Organisasi</a>
+                <a class="btn btn-link" href={{ url('visi-misi-tujuan') }}>Visi, Misi dan Tujuan</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h6 class="text-white mt-4 mb-3">Follow Us</h6>
@@ -40,6 +44,15 @@
                     <a class="btn btn-square btn-outline-light me-0"
                         href="https://www.linkedin.com/company/stkip-persada-khatulistiwa/mycompany/"><i
                             class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mt-5">
+                        <img class="img-fluid" width="150" src="{{ asset('assets/img/STKIP.png') }}" alt="">
+                    </div>
+                    <div class="col-md-6 mt-5">
+                        <img class="img-fluid" width="150" src="{{ asset('assets/img/tutwurihandayani.png') }}"
+                            alt="">
+                    </div>
                 </div>
             </div>
         </div>

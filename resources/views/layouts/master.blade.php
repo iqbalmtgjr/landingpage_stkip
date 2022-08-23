@@ -111,6 +111,10 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <a href="#" class="mx-auto col-3 btn btn-dark btn-md wow fadeInUp mt-5" data-wow-delay="0.2s">LIHAT
+                SEMUA BERITA &nbsp; &#8594</a>
+        </div>
     </div>
 </div>
 <!-- About End -->
@@ -120,7 +124,6 @@
 <div class="container-xxl courses my-6 py-6 pb-0">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            {{-- <h6 class="text-primary text-uppercase mb-2">Tranding Courses</h6> --}}
             <h1 class="display-6 mb-4 text-uppercase mb-2">Agenda</h1>
         </div>
         <div class="row g-4 justify-content-center">
@@ -182,64 +185,9 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-5 mb-3 g-4 justify-content-center">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                    <div class="text-center p-4 pt-0">
-                        <h5 class="mb-3 mt-5">Judul Agenda</h5>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                        <ol class="breadcrumb justify-content-center mb-0">
-                            <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3
-                                Week</li>
-                        </ol>
-                    </div>
-                    <div class="position-relative mt-auto">
-                        <img class="img-fluid" style="height: 300px" src={{ asset('assets/img/stkip-2.jpeg') }}
-                            alt="">
-                        <div class="courses-overlay">
-                            <a class="btn btn-outline-primary border-2" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                    <div class="text-center p-4 pt-0">
-                        <h5 class="mb-3 mt-5">Judul Agenda</h5>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                        <ol class="breadcrumb justify-content-center mb-0">
-                            <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3
-                                Week</li>
-                        </ol>
-                    </div>
-                    <div class="position-relative mt-auto">
-                        <img class="img-fluid" style="height: 300px" src={{ asset('assets/img/stkip-1.jpg') }}
-                            alt="">
-                        <div class="courses-overlay">
-                            <a class="btn btn-outline-primary border-2" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
-                    <div class="text-center p-4 pt-0">
-                        <h5 class="mb-3 mt-5">Judul Agenda</h5>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
-                        <ol class="breadcrumb justify-content-center mb-0">
-                            <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3
-                                Week</li>
-                        </ol>
-                    </div>
-                    <div class="position-relative mt-auto">
-                        <img class="img-fluid" style="height: 300px" src={{ asset('assets/img/stkip-3.jpg') }}
-                            alt="">
-                        <div class="courses-overlay">
-                            <a class="btn btn-outline-primary border-2" href="">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="row">
+            <a href="#" class="mx-auto col-3 btn btn-dark btn-md wow fadeInUp mt-5" data-wow-delay="0.8s">LIHAT
+                SEMUA EVENT &nbsp; &#8594</a>
         </div>
     </div>
 </div>
@@ -288,11 +236,9 @@
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="position-relative overflow-hidden pe-5 pt-5 h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src={{ asset('assets/img/about-1.jpg') }}
+                <div class="position-relative overflow-hidden pe-5  h-100" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src={{ asset('assets/img/pengumuman.png') }}
                         alt="" style="object-fit: cover;">
-                    <img class="position-absolute top-0 end-0 bg-white ps-3 pb-3"
-                        src={{ asset('assets/img/about-2.jpg') }} alt="" style="width: 200px; height: 200px">
                 </div>
             </div>
         </div>
@@ -302,7 +248,7 @@
 
 
 <!-- Team Start -->
-<div class="container-xxl py-6">
+<div class="container-xxl courses1 py-6">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
             <h1 class="text-uppercase display-6 mb-4">Yayasan</h1>
@@ -312,14 +258,6 @@
                 <div class="team-item position-relative">
                     <div class="position-relative">
                         <img class="img-fluid" src={{ asset('assets/img/team-1.jpg') }} alt="">
-                        <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-instagram"></i></a>
-                        </div>
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="mt-2">Y.A.T Lukman Riberu <br><br></h5>
@@ -331,14 +269,6 @@
                 <div class="team-item position-relative">
                     <div class="position-relative">
                         <img class="img-fluid" src={{ asset('assets/img/team-2.jpg') }} alt="">
-                        <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-instagram"></i></a>
-                        </div>
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="mt-2">HERPANUS, S.P., M.A., PH.D</h5>
@@ -350,14 +280,6 @@
                 <div class="team-item position-relative">
                     <div class="position-relative">
                         <img class="img-fluid" src={{ asset('assets/img/team-3.jpg') }} alt="">
-                        <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-instagram"></i></a>
-                        </div>
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="mt-2">DR. ADRIANA GANDASARI, M.PD</h5>
@@ -369,14 +291,6 @@
                 <div class="team-item position-relative">
                     <div class="position-relative">
                         <img class="img-fluid" src={{ asset('assets/img/team-4.jpg') }} alt="">
-                        <div class="team-social text-center">
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square btn-outline-primary border-2 m-1" href=""><i
-                                    class="fab fa-instagram"></i></a>
-                        </div>
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="mt-2">DIDIN SYAFRUDDIN.SP.,M.SI</h5>
@@ -453,5 +367,19 @@
     </div>
 </div>
 <!-- Testimonial End -->
+
+<div class="container-xxl py-6">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <h1 class="text-uppercase mb-2 display-6 mb-4">Lokasi</h1>
+        </div>
+        <div class="row justify-content-center">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8165785538235!2d111.47738531483918!3d0.0535375999609431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fe223fde00934f%3A0xde19bf8d2e8789de!2sSTKIP%20Persada%20Khatulistiwa%20Sintang!5e0!3m2!1sid!2sid!4v1661238672690!5m2!1sid!2sid"
+                width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
 
 @include('layouts.footer')
