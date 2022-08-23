@@ -47,8 +47,3 @@ Route::get('/informasi-beasiswa', function () {
 Route::get('/berita', function () {
     return view('pages.informasi.berita');
 });
-
-//E-Learn
-Route::get('/kalender-akademik', function () {
-    return view('pages.e-lear.kalender_akademik');
-});

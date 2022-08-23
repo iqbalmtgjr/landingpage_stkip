@@ -187,7 +187,7 @@
         </div>
         <div class="row">
             <a href="#" class="mx-auto col-3 btn btn-dark btn-md wow fadeInUp mt-5" data-wow-delay="0.8s">LIHAT
-                SEMUA EVENT &nbsp; &#8594</a>
+                SEMUA AGENDA &nbsp; &#8594</a>
         </div>
     </div>
 </div>
@@ -381,5 +381,25 @@
         </div>
     </div>
 </div>
+
+<div class="container-xxl py-6">
+    <div class="container">
+        <div class="row col-12 text-center">
+            <div class="col-lg-4">
+                <a href="https://siakad.persadakhatulistiwa.ac.id/"
+                    class="col-12 btn btn-primary btn-lg mx-auto py-3">SIAKAD</a>
+            </div>
+            <div class="col-lg-4">
+                <a href="https://persadakhatulistiwa.ac.id/simkeu/main/index.html"
+                    class="col-12 btn btn-dark btn-lg mx-auto py-3">SIMKEU</a>
+            </div>
+            <div class="col-lg-4">
+                <a href="https://persadakhatulistiwa.ac.id/simfa/main/index.html"
+                    class="col-12 btn btn-success btn-lg mx-auto py-3">SIMFA</a>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 @include('layouts.footer')

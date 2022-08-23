@@ -101,7 +101,7 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href={{ url('unduh-surat') }} class="dropdown-item">Download Fomat Surat</a>
+                        <a href={{ url('unduh-surat') }} class="dropdown-item">Download Format Surat</a>
                         <a href={{ url('berita') }} class="dropdown-item">Berita</a>
                         <a href={{ url('informasi-beasiswa') }} class="dropdown-item">Informasi Beasiswa</a>
                     </div>
@@ -111,7 +111,6 @@
                     <div class="dropdown-menu bg-light m-0">
                         <a href="https://persadakhatulistiwa.ac.id/kuliah/" class="dropdown-item">E-Learning</a>
                         <a href="http://persadakhatulistiwa.ac.id/perpus/" class="dropdown-item">E-Library</a>
-                        <a href={{ url('kalender-akademik') }} class="dropdown-item">Kalender Akademik</a>
                     </div>
                 </div>
                 <a href="http://180.249.253.207/auth/login" class="nav-item nav-link">SISTER</a>
