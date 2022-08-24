@@ -1,4 +1,4 @@
-@extends('layouts.pages')
+@extends('layouts.pages', ['tittle' => 'Selayang Pandang - STKIP Persada Khatulistiwa'])
 @section('header', 'Selayang Pandang')
 @section('content')
     <div style="text-align:justify">

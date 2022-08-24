@@ -1,4 +1,4 @@
-@extends('layouts.pages')
+@extends('layouts.pages', ['tittle' => 'Unduh SURAT - STKIP Persada Khatulistiwa'])
 @section('header', 'Download Format Surat')
 @section('content')
 

@@ -47,3 +47,32 @@ Route::get('/informasi-beasiswa', function () {
 Route::get('/berita', function () {
     return view('pages.informasi.berita');
 });
+
+Route::get('/agenda', function () {
+    return view('pages.informasi.agenda');
+});
+
+//Lembaga
+Route::get('/kemahasiswaan-dan-alumni', function () {
+    return view('pages.lembaga.kemahasiswaan_dan_alumni');
+});
+
+Route::get('/kewirausahaan', function () {
+    return view('pages.lembaga.kewirausahaan');
+});
+
+Route::get('/upt-lab-dan-microteaching', function () {
+    return view('pages.lembaga.upt_lab_dan_microteaching');
+});
+
+Route::get('/lembaga-budaya-dan-bhs-kalimantan', function () {
+    return view('pages.lembaga.lembaga_budaya_dan_bhs_kalimantan');
+});
+
+Route::get('/lembaga-penelitian-dan-pengabdian-masyarakat', function () {
+    return view('pages.lembaga.lembaga_penelitian_dan_pengabdian_masyarakat');
+});
+
+Route::get('/upt-perpus', function () {
+    return view('pages.lembaga.upt_perpus');
+});

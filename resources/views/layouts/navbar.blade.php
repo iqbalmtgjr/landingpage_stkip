@@ -56,13 +56,21 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href={{ url('/') }} class="nav-item nav-link active">Home</a>
+                <a href={{ url('/') }} class="nav-item nav-link {{ request()->is('/') ? 'active' : '' }}">Home</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang</a>
+                    <a href="#"
+                        class="nav-link dropdown-toggle {{ request()->is('selayang-pandang') ? 'active' : '' }}{{ request()->is('struktur-organisasi') ? 'active' : '' }}{{ request()->is('visi-misi-tujuan') ? 'active' : '' }}"
+                        data-bs-toggle="dropdown">Tentang</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href={{ url('selayang-pandang') }} class="dropdown-item">Selayang Pandang</a>
-                        <a href={{ url('struktur-organisasi') }} class="dropdown-item">Struktur Organisasi</a>
-                        <a href={{ url('visi-misi-tujuan') }} class="dropdown-item">Visi dan Misi</a>
+                        <a href={{ url('selayang-pandang') }}
+                            class="dropdown-item {{ request()->is('selayang-pandang') ? 'active' : '' }}">Selayang
+                            Pandang</a>
+                        <a href={{ url('struktur-organisasi') }}
+                            class="dropdown-item {{ request()->is('struktur-organisasi') ? 'active' : '' }}">Struktur
+                            Organisasi</a>
+                        <a href={{ url('visi-misi-tujuan') }}
+                            class="dropdown-item {{ request()->is('visi-misi-tujuan') ? 'active' : '' }}">Visi dan
+                            Misi</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -87,23 +95,51 @@
                     </div>
                 </div>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lembaga</a>
+                    <a href="#"
+                        class="nav-link dropdown-toggle {{ request()->is('upt-lab-dan-microteaching') ? 'active' : '' }}{{ request()->is('upt-perpus') ? 'active' : '' }}{{ request()->is('lembaga-budaya-dan-bhs-kalimantan') ? 'active' : '' }}{{ request()->is('kewirausahaan') ? 'active' : '' }}{{ request()->is('kemahasiswaan-dan-alumni') ? 'active' : '' }}{{ request()->is('lembaga-penelitian-dan-pengabdian-masyarakat') ? 'active' : '' }}"
+                        data-bs-toggle="dropdown">Lembaga</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="#" class="dropdown-item">UPT. LAB. DAN MICROTEACHING</a>
-                        <a href="https://persadakhatulistiwa.ac.id/perpus/" class="dropdown-item">UPT. PERPUSTAKAAN</a>
-                        <a href="#" class="dropdown-item">LEMBAGA BUDAYA DAN BAHASA KALIMANTAN</a>
-                        <a href="#" class="dropdown-item">KEWIRAUSAHAAN</a>
-                        <a href="#" class="dropdown-item">KEMAHASISWAAN DAN ALUMNI</a>
-                        <a href="#" class="dropdown-item">Lembaga Penelitian dan Pengabdian Masyrakat</a>
+                        <a href={{ url('upt-lab-dan-microteaching') }}
+                            class="dropdown-item {{ request()->is('upt-lab-dan-microteaching') ? 'active' : '' }}">UPT.
+                            LAB. DAN
+                            MICROTEACHING</a>
+                        <a href={{ url('upt-perpus') }}
+                            class="dropdown-item {{ request()->is('upt-perpus') ? 'active' : '' }}">UPT.
+                            PERPUSTAKAAN</a>
+                        <a href={{ url('lembaga-budaya-dan-bhs-kalimantan') }}
+                            class="dropdown-item {{ request()->is('lembaga-budaya-dan-bhs-kalimantan') ? 'active' : '' }}">LEMBAGA
+                            BUDAYA DAN
+                            BAHASA
+                            KALIMANTAN</a>
+                        <a href={{ url('kewirausahaan') }}
+                            class="dropdown-item {{ request()->is('kewirausahaan') ? 'active' : '' }}">KEWIRAUSAHAAN</a>
+                        <a href={{ url('kemahasiswaan-dan-alumni') }}
+                            class="dropdown-item {{ request()->is('kemahasiswaan-dan-alumni') ? 'active' : '' }}">KEMAHASISWAAN
+                            DAN
+                            ALUMNI</a>
+                        <a href={{ url('lembaga-penelitian-dan-pengabdian-masyarakat') }}
+                            class="dropdown-item {{ request()->is('lembaga-penelitian-dan-pengabdian-masyarakat') ? 'active' : '' }}">Lembaga
+                            Penelitian dan
+                            Pengabdian Masyrakat</a>
                     </div>
                 </div>
-                <a href={{ url('/pmb') }} class="nav-item nav-link">PMB</a>
+                <a href={{ url('/pmb') }}
+                    class="nav-item nav-link {{ request()->is('pmb') ? 'active' : '' }}">PMB</a>
                 <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Informasi</a>
+                    <a href="#"
+                        class="nav-link dropdown-toggle {{ request()->is('unduh-surat') ? 'active' : '' }} {{ request()->is('berita') ? 'active' : '' }} {{ request()->is('informasi-beasiswa') ? 'active' : '' }} {{ request()->is('agenda') ? 'active' : '' }}"
+                        data-bs-toggle="dropdown">Informasi</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href={{ url('unduh-surat') }} class="dropdown-item">Download Format Surat</a>
-                        <a href={{ url('berita') }} class="dropdown-item">Berita</a>
-                        <a href={{ url('informasi-beasiswa') }} class="dropdown-item">Informasi Beasiswa</a>
+                        <a href={{ url('unduh-surat') }}
+                            class="dropdown-item {{ request()->is('unduh-surat') ? 'active' : '' }}">Download Format
+                            Surat</a>
+                        <a href={{ url('berita') }}
+                            class="dropdown-item {{ request()->is('berita') ? 'active' : '' }}">Berita</a>
+                        <a href={{ url('agenda') }}
+                            class="dropdown-item {{ request()->is('agenda') ? 'active' : '' }}">Agenda</a>
+                        <a href={{ url('informasi-beasiswa') }}
+                            class="dropdown-item {{ request()->is('informasi-beasiswa') ? 'active' : '' }}">Informasi
+                            Beasiswa</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">

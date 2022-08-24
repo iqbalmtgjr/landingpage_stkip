@@ -1,4 +1,4 @@
-@extends('layouts.pages')
+@extends('layouts.pages', ['tittle' => 'Visi, Misi dan Tujuan - STKIP Persada Khatulistiwa'])
 @section('header', 'VISI, MISI DAN TUJUAN')
 @section('content')
     <div style="text-align:justify">

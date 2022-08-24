@@ -22,7 +22,7 @@
                 <p class="mb-4">
                     Maaf, halaman yang Anda cari tidak ada di website kami! Mungkin pergi
                     ke menu home atau mencoba menggunakan pencarian?</p>
-                <a class="btn btn-primary py-3 px-5" href={{ url('/') }}>Go Back To Home</a>
+                <a class="btn btn-primary py-3 px-5" href={{ url('/') }}>Kembali Ke Home</a>
             </div>
         </div>
     </div>
