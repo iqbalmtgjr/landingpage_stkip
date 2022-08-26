@@ -6,7 +6,8 @@
                 <h4 class="text-white mb-4">Informasi</h4>
                 <h3 class="text-primary mb-4"><img width="40px" style="align-self: right"
                         src="{{ asset('assets/img/STKIP.png') }}" alt="">&nbsp; STKIP Sintang</h3>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Pertamina KM 4, Sengkuang, Sintang</p>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Lokasi : Jl. Pertamina KM 4, Sengkuang,
+                    Kecamatan Sintang, Kapuas Kanan Hulu, Kec. Sintang, Kabupaten Sintang, Kalimantan Barat 78614</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+62-812-5723-9198</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>stkippersada@gmail.com</p>
             </div>

@@ -46,10 +46,10 @@
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
         <a href={{ url('/') }} class="navbar-brand d-flex align-items-center border-end px-4 px-lg-5">
-            <h2 class="m-0"><img width="60px" src="{{ asset('assets/img/STKIP.png') }}"
-                    alt="">&nbsp;</i>STKIP
-                Persada
-                Khatulistiwa</h2>
+            <h2 class="m-0">
+                <img class="text-primary me-2" width="60px" src="{{ asset('assets/img/STKIP.png') }}" alt="">
+                <span class="anjay">STKIP Persada Khatulistiwa</span>
+            </h2>
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -149,7 +149,7 @@
                         <a href="http://persadakhatulistiwa.ac.id/perpus/" class="dropdown-item">E-Library</a>
                     </div>
                 </div>
-                <a href="http://180.249.253.207/auth/login" class="nav-item nav-link">SISTER</a>
+                <a href="http://36.85.147.112/auth/login" class="nav-item nav-link">SISTER</a>
             </div>
         </div>
     </nav>

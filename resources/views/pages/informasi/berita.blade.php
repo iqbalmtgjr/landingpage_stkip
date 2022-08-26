@@ -58,7 +58,7 @@
                             Senin, 15 Agustus 2022 BPBAT Mandiangin yang diwakili oleh Bapak Khairul... </p>
                     </div>
                     <div class="row" style="align-items: flex-end">
-                        <a href="">Baca Selengkapnya</a>
+                        <a href="#">Baca Selengkapnya</a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@
                         </p>
                     </div>
                     <div class="row" style="align-items: flex-end">
-                        <a href="">Baca Selengkapnya</a>
+                        <a href="#">Baca Selengkapnya</a>
                     </div>
                 </div>
             </div>

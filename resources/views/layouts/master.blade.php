@@ -152,22 +152,23 @@
 <div class="container-xxl courses my-6 py-6 pb-0">
     <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <h1 class="display-6 mb-4 text-uppercase mb-2">Agenda</h1>
+            <h1 class="display-6 mb-4 text-uppercase mb-2">Agenda Terbaru</h1>
         </div>
         <div class="row g-4 justify-content-center">
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
-                        <h5 class="mb-3 mt-5">Judul Agenda</h5>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                        <h5 class="mb-3 mt-5">Workshop Registrasi Tenaga Kependidikan Perguruan Tinggi</h5>
+                        <p>Workshop Registrasi Tenaga Kependidikan Perguruan Tinggi di lingkungan LLDIKTI Wilayah XI
+                            Tahun 2022</p>
                         <ol class="breadcrumb justify-content-center mb-0">
                             <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3
                                 Week</li>
                         </ol>
                     </div>
                     <div class="position-relative mt-auto">
-                        <img class="img-fluid" style="height: 300px" src={{ asset('assets/img/stkip-2.jpeg') }}
-                            alt="">
+                        <img class="img-fluid" style="height: 350px; width: 600px"
+                            src={{ asset('assets/img/agenda_workshop.jpeg') }} alt="">
                         <div class="courses-overlay">
                             <a class="btn btn-outline-primary border-2" href="">Read More</a>
                         </div>
@@ -177,16 +178,16 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
-                        <h5 class="mb-3 mt-5">Judul Agenda</h5>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                        <h5 class="mb-3 mt-5">Semarak Peringatan Hari Ulang Tahun Republik Indonesia</h5>
+                        <p>Semarak Peringatan Hari Ulang Tahun Kemerdekaan Indonesia Ke-77</p>
                         <ol class="breadcrumb justify-content-center mb-0">
                             <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3
                                 Week</li>
                         </ol>
                     </div>
                     <div class="position-relative mt-auto">
-                        <img class="img-fluid" style="height: 300px" src={{ asset('assets/img/stkip-1.jpg') }}
-                            alt="">
+                        <img class="img-fluid" style="height: 350px; width: 600px"
+                            src={{ asset('assets/img/berita-2.jpeg') }} alt="">
                         <div class="courses-overlay">
                             <a class="btn btn-outline-primary border-2" href="">Read More</a>
                         </div>
@@ -196,16 +197,16 @@
             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="courses-item d-flex flex-column bg-white overflow-hidden h-100">
                     <div class="text-center p-4 pt-0">
-                        <h5 class="mb-3 mt-5">Judul Agenda</h5>
-                        <p>Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
+                        <h5 class="mb-3 mt-5">Pendaftaran Mahasiswa Baru</h5>
+                        <p>Pendaftaran mahasiswa baru dapat dilakukan secara online ataupun offline</p>
                         <ol class="breadcrumb justify-content-center mb-0">
                             <li class="breadcrumb-item small"><i class="fa fa-calendar-alt text-primary me-2"></i>3
                                 Week</li>
                         </ol>
                     </div>
                     <div class="position-relative mt-auto">
-                        <img class="img-fluid" style="height: 300px" src={{ asset('assets/img/stkip-3.jpg') }}
-                            alt="">
+                        <img class="img-fluid" style="height: 350px; width: 600px"
+                            src={{ asset('assets/img/pendaftaran_maba.jpeg') }} alt="">
                         <div class="courses-overlay">
                             <a class="btn btn-outline-primary border-2" href="">Read More</a>
                         </div>
@@ -214,7 +215,7 @@
             </div>
         </div>
         <div class="row">
-            <a href="#" class="mx-auto col-3 btn btn-dark btn-md wow fadeInUp mt-5" data-wow-delay="0.8s">LIHAT
+            <a href="#" class="mx-auto col-3 btn btn-dark btn-md wow fadeInUp mt-4" data-wow-delay="0.8s">LIHAT
                 SEMUA AGENDA &nbsp; &#8594</a>
         </div>
     </div>
@@ -233,39 +234,49 @@
                         <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0 btn-square bg-primary me-3">
                             </div>
-                            <h5 class="mb-0">Fully Licensed</h5>
+                            <h5 class="mb-0">Pelakasanaan PKKMB</h5>
                         </div>
-                        <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        <div style="text-align:justify">
+                            <span>Pelaksanaan PKKMB akan dimulai pada tanggal</span>
+                        </div>
                     </div>
                     <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                         <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0 btn-square bg-primary me-3">
                             </div>
-                            <h5 class="mb-0">Online Tracking</h5>
+                            <h5 class="mb-0">Pengumuman Tes Gelombang III</h5>
                         </div>
-                        <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        <div style="text-align:justify">
+                            <span>Pengumuman tes gelombang III akan diumumkan pada tanggal 1 September 2022</span>
+                        </div>
                     </div>
                     <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                         <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0 btn-square bg-primary me-3">
                             </div>
-                            <h5 class="mb-0">Afordable Fee</h5>
+                            <h5 class="mb-0">Jadwal Tes Mahasiswa Baru Gelombang III</h5>
                         </div>
-                        <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        <div style="text-align:justify">
+                            <span>Jadwal tes/ujian untuk mahasiswa baru gelombang III akan
+                                dilaksanakan pada 26-31 agustus
+                                2022 </span>
+                        </div>
                     </div>
                     <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                         <div class="d-flex align-items-center mb-3">
                             <div class="flex-shrink-0 btn-square bg-primary me-3">
                             </div>
-                            <h5 class="mb-0">Best Trainers</h5>
+                            <h5 class="mb-0">Registrasi Mahasiswa Baru</h5>
                         </div>
-                        <span>Magna sea eos sit dolor, ipsum amet ipsum lorem diam eos</span>
+                        <div style="text-align:justify">
+                            <span>Registrasi mahasiswa baru dapat dilakukan pada tanggal 1-14 September 2022</span>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="position-relative overflow-hidden pe-5  h-100" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src={{ asset('assets/img/pengumuman.png') }}
+                    <img class="position-absolute w-100 h-100 img-fluid" src={{ asset('assets/img/pengumuman.png') }}
                         alt="" style="object-fit: cover;">
                 </div>
             </div>
@@ -289,18 +300,18 @@
                     </div>
                     <div class="bg-light text-center p-4">
                         <h5 class="mt-2">Y.A.T Lukman Riberu <br><br></h5>
-                        <span>Ketua Yayasan <br><br> </span>
+                        <span>PERKUMPULAN BADAN PENDIDIKAN KARYA BANGSA <br> </span>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src={{ asset('assets/img/team-2.jpg') }} alt="">
+                        <img class="img-fluid" src={{ asset('assets/img/team-4.jpg') }} alt="">
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="mt-2">HERPANUS, S.P., M.A., PH.D</h5>
-                        <span>WAKIL KETUA BIDANG NON AKADEMIK</span>
+                        <h5 class="mt-2">DIDIN SYAFRUDDIN.SP.,M.SI</h5>
+                        <span>KETUA STKIP PERSADA KHATULISTIWA</span>
                     </div>
                 </div>
             </div>
@@ -310,19 +321,20 @@
                         <img class="img-fluid" src={{ asset('assets/img/team-3.jpg') }} alt="">
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="mt-2">DR. ADRIANA GANDASARI, M.PD</h5>
-                        <span>WAKIL KETUA BIDANG AKADEMIK</span>
+
+                        <h5 class="mt-2">HERPANUS, S.P., M.A., PH.D</h5>
+                        <span>WAKIL KETUA BIDANG NON AKADEMIK</span>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                 <div class="team-item position-relative">
                     <div class="position-relative">
-                        <img class="img-fluid" src={{ asset('assets/img/team-4.jpg') }} alt="">
+                        <img class="img-fluid" src={{ asset('assets/img/team-2.jpg') }} alt="">
                     </div>
                     <div class="bg-light text-center p-4">
-                        <h5 class="mt-2">DIDIN SYAFRUDDIN.SP.,M.SI</h5>
-                        <span>Trainer</span>
+                        <h5 class="mt-2">DR. ADRIANA GANDASARI, M.PD</h5>
+                        <span>WAKIL KETUA BIDANG AKADEMIK</span>
                     </div>
                 </div>
             </div>
@@ -415,15 +427,15 @@
         <div class="row col-12 text-center">
             <div class="col-lg-4">
                 <a href="https://siakad.persadakhatulistiwa.ac.id/"
-                    class="col-12 btn btn-primary btn-lg mx-auto py-3">SIAKAD</a>
+                    class="col-12 btn btn-primary btn-lg mx-auto py-3 my-2">SIAKAD</a>
             </div>
             <div class="col-lg-4">
                 <a href="https://persadakhatulistiwa.ac.id/simkeu/main/index.html"
-                    class="col-12 btn btn-dark btn-lg mx-auto py-3">SIMKEU</a>
+                    class="col-12 btn btn-dark btn-lg mx-auto py-3 my-2">SIMKEU</a>
             </div>
             <div class="col-lg-4">
                 <a href="https://persadakhatulistiwa.ac.id/simfa/main/index.html"
-                    class="col-12 btn btn-success btn-lg mx-auto py-3">SIMFA</a>
+                    class="col-12 btn btn-success btn-lg mx-auto py-3 my-2">SIMFA</a>
             </div>
         </div>
     </div>
