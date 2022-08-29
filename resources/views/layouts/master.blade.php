@@ -237,7 +237,8 @@
                             <h5 class="mb-0">Pelakasanaan PKKMB</h5>
                         </div>
                         <div style="text-align:justify">
-                            <span>Pelaksanaan PKKMB akan dimulai pada tanggal</span>
+                            <span>Pelaksanaan PKKMB akan dimulai pada tanggal 5 September 2022 sampai dengan 9 September
+                                2022.</span>
                         </div>
                     </div>
                     <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
@@ -357,14 +358,7 @@
                         <div class="position-relative mb-5">
                             <img class="img-fluid rounded-circle mx-auto"
                                 src={{ asset('assets/img/testimonial-1.jpg') }} alt="">
-                            <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-quote-left fa-2x text-primary"></i>
-                            </div>
                         </div>
-                        <p class="fs-4">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
-                            lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.
-                        </p>
                         <hr class="w-25 mx-auto">
                         <h5>Judul Nama</h5>
                         <span>Kaprodi blablabla</span>
@@ -373,14 +367,7 @@
                         <div class="position-relative mb-5">
                             <img class="img-fluid rounded-circle mx-auto"
                                 src={{ asset('assets/img/testimonial-2.jpg') }} alt="">
-                            <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-quote-left fa-2x text-primary"></i>
-                            </div>
                         </div>
-                        <p class="fs-4">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
-                            lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.
-                        </p>
                         <hr class="w-25 mx-auto">
                         <h5>Judul Nama</h5>
                         <span>Kaprodi blablabla</span>
@@ -389,14 +376,7 @@
                         <div class="position-relative mb-5">
                             <img class="img-fluid rounded-circle mx-auto"
                                 src={{ asset('assets/img/testimonial-3.jpg') }} alt="">
-                            <div class="position-absolute top-100 start-50 translate-middle d-flex align-items-center justify-content-center bg-white rounded-circle"
-                                style="width: 60px; height: 60px;">
-                                <i class="fa fa-quote-left fa-2x text-primary"></i>
-                            </div>
                         </div>
-                        <p class="fs-4">Dolores sed duo clita tempor justo dolor et stet lorem kasd labore dolore
-                            lorem ipsum. At lorem lorem magna ut et, nonumy et labore et tempor diam tempor erat.
-                        </p>
                         <hr class="w-25 mx-auto">
                         <h5>Judul Nama</h5>
                         <span>Kaprodi blablabla</span>
